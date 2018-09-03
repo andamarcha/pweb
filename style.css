@@ -1,0 +1,87 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+body
+{
+	background-image:linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.3)),url(aa.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 200vh;
+
+}
+
+.nav-bar
+{
+	background: rgb(0, 0, 0, 0.6);
+	height: 80px;
+}
+
+.logo
+{
+	margin: 10px 50px;
+	height: 60px
+}
+
+.m
+{
+	border: 10px solid black;
+	margin: 5px;
+}
+
+.menu
+{
+	float: right;
+	list-style: none;
+	margin: 20px;
+}
+
+.menu li
+{
+	display: inline-block;
+	margin: 10px 5px;
+}
+
+.menu li a
+{
+	text-decoration: none;
+	color: white;
+	padding: 5px 10px;
+	font-family: sans-serif;
+	letter-spacing: 2px;
+	border: 1px solid white;
+}
+
+.menu li a:hover 
+{
+	background-color: white;
+	transition: .4s;
+	color: black;
+}
+
+.welcome
+{
+	position: relative;
+	text-align: center;
+	font-family: sans-serif;
+	color: beige;
+	top: 350px;
+}
+
+.welcome h1
+{
+	font-size: 45px;
+	margin: 25px;
+	font-weight: bolder;
+}
+
+.welcome h2
+{
+	font-size: 30px;
+	margin: 25px;
+	font-weight: bold;
+}
+
+
